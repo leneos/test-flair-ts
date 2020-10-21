@@ -6,7 +6,7 @@ import { selectIsGameStarted, startGame } from "../../redux/appSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
-export const StartScreen = () => {
+export const StartScreen: React.FC = () => {
   const dispatch = useDispatch();
   const isGameStarted = useSelector(selectIsGameStarted);
 
