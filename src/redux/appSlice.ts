@@ -282,6 +282,7 @@ const updateHitBox = (
     }
   }
 };
+
 export const { startGame, updateScore, restartGame } = appSlice.actions;
 
 export const selectIsGameStarted = (redux: any) => redux.app.isGameStarted;
